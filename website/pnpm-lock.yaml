@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/alpinejs':
         specifier: ^0.4.8
-        version: 0.4.8(@types/alpinejs@3.13.10)(alpinejs@3.14.1)
+        version: 0.4.8(@types/alpinejs@3.13.10)(alpinejs@3.15.2)
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(typescript@5.5.4)
@@ -33,8 +33,8 @@ importers:
         specifier: ^3.13.10
         version: 3.13.10
       alpinejs:
-        specifier: ^3.14.1
-        version: 3.14.1
+        specifier: ^3.15.2
+        version: 3.15.2
       astro:
         specifier: ^5.9.2
         version: 5.9.2(jiti@2.4.2)(lightningcss@1.30.1)(rollup@4.42.0)(typescript@5.5.4)(yaml@2.6.0)
@@ -891,8 +891,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  alpinejs@3.14.1:
-    resolution: {integrity: sha512-ICar8UsnRZAYvv/fCNfNeKMXNoXGUfwHrjx7LqXd08zIP95G2d9bAOuaL97re+1mgt/HojqHsfdOLo/A5LuWgQ==}
+  alpinejs@3.15.2:
+    resolution: {integrity: sha512-2kYF2aG+DTFkE6p0rHG5XmN4VEb6sO9b02aOdU4+i8QN6rL0DbRZQiypDE1gBcGO65yDcqMz5KKYUYgMUxgNkw==}
 
   ansi-align@3.0.1:
     resolution: {integrity: sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==}
@@ -2757,10 +2757,10 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@astrojs/alpinejs@0.4.8(@types/alpinejs@3.13.10)(alpinejs@3.14.1)':
+  '@astrojs/alpinejs@0.4.8(@types/alpinejs@3.13.10)(alpinejs@3.15.2)':
     dependencies:
       '@types/alpinejs': 3.13.10
-      alpinejs: 3.14.1
+      alpinejs: 3.15.2
 
   '@astrojs/check@0.9.4(typescript@5.5.4)':
     dependencies:
@@ -3550,7 +3550,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  alpinejs@3.14.1:
+  alpinejs@3.15.2:
     dependencies:
       '@vue/reactivity': 3.1.5
 
